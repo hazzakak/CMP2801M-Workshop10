@@ -46,6 +46,7 @@ int main()
             finished = true;
             break;
         default:
+            cout << "Incorrect input must be C, F, S or E!!!" << endl;
             break;
         }
     }
