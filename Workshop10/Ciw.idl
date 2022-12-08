@@ -1,0 +1,9 @@
+namespace Workshop10
+{
+    [default_interface]
+    runtimeclass Ciw : Windows.UI.Xaml.Controls.Page
+    {
+        Ciw();
+        Int32 MyProperty;
+    }
+}

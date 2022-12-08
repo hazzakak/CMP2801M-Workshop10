@@ -4,6 +4,6 @@ Animal::Animal()
 {
 }
 
-void Animal::speak(void)
+Animal::~Animal()
 {
 }

@@ -7,6 +7,10 @@ class Cow :
 public:
     Cow() {}
 
+    ~Cow() {
+        cout << "Cow has been destructed" << endl;
+    }
+
     // using virtual as it's being overriden.
     virtual void speak(void) {
         cout << "Cow says: \t\tmoo!" << endl;
